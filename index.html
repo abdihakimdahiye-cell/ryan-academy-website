@@ -3,29 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>school management system</title>
+    <title>Ryan academy</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>School management system</h1>
-        <nav>
-            <a href="index.html">HOME</a>
-            <a href="student.html">Students</a>
-            <a href="teachers.html">Teachers</a>
-            <a href="attendace.html">Attendance</a>
-            <a href="fees.html">Fees</a>
-            <a href="contact.html">Contact</a>
-            <a href="login.html">login</a>
-        </nav>
+        <img src="Images/School.jpeg"
+        alt="Ryan Academy Logo"
+        class="school-logo">
+        <h1> Ryan academy</h1> 
+        <nav class="navbar">
+
+    <button class="menu-button" id="menuButton">☰</button>
+
+    <div class="nav-links" id="navLinks">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="academics.html">ACADEMICS</a>
+        <a href="admissions.html">ADMISSIONS</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="contact.html">CONTACT</a>
+    </div>
+
+</nav>
+
+        
     </header>
     <main>
+        <div id="overlay"></div>
+        <div id="hero-img">
         <section class="hero">
-            <h2>welcome to school management system</h2>
-            <p>manage student,teachers,attendance,exams and school fees from one platform.</p>
-            <a href="#" class="btn">get started</a>
+            <h2>Welcome to Ryan academy</h2>
+            <p>Quality education,islamic valuesand bright future for every learner.</p>
+            <a href="about.html"class ="btn" id="LearnMoreBtn">Learn more</a>
 
         </section>
+        </div>
         <section class="features">
             <div class="card">
                 <h3>students</h3>
@@ -33,24 +46,25 @@
 
             </div>
             <div class="card">
-                <h3>Teachers</h3>
-                <p>manage teachers information</p>
+                <h3>Quality education</h3>
+                <p>we provide quality education in a supportive learning envrironment</p>
 
             </div>
             <div class="card">
-                <h3>Attendance</h3>
-                <p>Track daily attendace</p>
+                <h3>Student development</h3>
+                <p>we support student to develope knoweledge,skills and confidence</p>
 
             </div>
             <div class="card">
-                <h3>Fees</h3>
-                <p>Manage school fees payment</p>
+                <h3>learning environment</h3>
+                <p>Manage school fees paymen</p>
 
             </div>
 
         </section>
-
+        
     </main>
+    <script src="script.js"></script>
 
 </body>
 </html>
